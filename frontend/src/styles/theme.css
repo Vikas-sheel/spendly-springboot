@@ -1,0 +1,33 @@
+:root {
+  --brand-green: #2ca85a;
+  --page-bg: #f8f6f4;
+  --section-beige: #ede8e2;
+  --footer-bg: #111111;
+  --card-bg: #ffffff;
+  --nav-bg: #ffffff;
+  --text-primary: #111111;
+  --text-muted: #6b7280;
+  --border: rgba(0, 0, 0, 0.1);
+  --bar-track: rgba(0, 0, 0, 0.08);
+  --bar-bills: #2ca85a;
+  --bar-food: #d97706;
+  --bar-health: #6366f1;
+  --bar-transport: #7c3aed;
+  --destructive: #d4183d;
+  --btn-primary-bg: #111111;
+  --btn-primary-text: #ffffff;
+}
+
+[data-theme='dark'] {
+  --page-bg: #111827;
+  --section-beige: #1f2937;
+  --footer-bg: #000000;
+  --card-bg: #1e293b;
+  --nav-bg: #0f172a;
+  --text-primary: #f9fafb;
+  --text-muted: #9ca3af;
+  --border: rgba(255, 255, 255, 0.08);
+  --bar-track: rgba(255, 255, 255, 0.1);
+  --btn-primary-bg: #f9fafb;
+  --btn-primary-text: #111111;
+}
